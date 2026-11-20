@@ -4,7 +4,7 @@
 
 An Android app that automatically scans your SMS inbox for loan-related messages from popular Kenyan financial services, detects outstanding loans, calculates totals, and gives you clear, actionable strategies to pay them off — all in a clean, modern interface.
 
-> **Note:** This repository currently contains only the project README. Full source code is coming soon.
+> **Build:** every push to `main` builds an APK via GitHub Actions (Actions tab → latest run → Artifacts).
 
 ---
 
@@ -47,7 +47,7 @@ An Android app that automatically scans your SMS inbox for loan-related messages
 
 ## 🚧 Status
 
-**README only** — Project structure and source code will be added in upcoming commits.
+**v1 working draft** — scans the last 120 days of SMS, shows the latest balance per lender, and suggests repayment strategies (no Room database yet).
 
 ---
 
