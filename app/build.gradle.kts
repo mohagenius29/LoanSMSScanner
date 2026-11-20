@@ -3,6 +3,10 @@ plugins {
     id("org.jetbrains.kotlin.android")
 }
 
+base {
+    archivesName.set("LoanSMSScanner")
+}
+
 android {
     namespace = "com.mohart.loansmsscanner"
     compileSdk = 34
